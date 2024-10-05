@@ -1,0 +1,14 @@
+{
+  "build": {
+    "production": {
+      "ios": {
+        "buildType": "release",
+        "exclude": ["node_modules", ".cache", ".git", "android", "ios"]
+      },
+      "android": {
+        "buildType": "release",
+        "exclude": ["node_modules", ".cache", ".git", "android", "ios"]
+      }
+    }
+  }
+}
